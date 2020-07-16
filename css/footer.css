@@ -1,0 +1,97 @@
+.footer {
+  height:25%;
+	width: 100%;
+	clear: both;
+	background-color: #000000;
+	padding-top: 10px;
+	float: left;
+	letter-spacing: 1px;
+	font-weight: lighter;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	font-size: 85%;
+	display: flex;
+  bottom: 0;
+  position: static;
+  border-top: 0.5vh #a8a8a8 solid;
+}
+
+.footer-item-container {
+  display: flex;
+}
+
+.footer-item {
+  font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
+  color: white;
+  flex-grow: 1;
+  flex-basis: 200px;
+  padding: 0.7vw;
+
+}
+
+.footer-item h5{
+  font-variant: small-caps;
+  font-size: 125%;
+  font-weight: 400;
+  letter-spacing: 3px;
+  padding-bottom: 1vh;
+}
+
+.footer-item img {
+  width: 65px;
+  height: 65px;
+  padding: 0.2vw;
+}
+
+.footer-right {
+  font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
+  color: white;
+  flex-grow: 1;
+  padding: 0.7vw;
+}
+
+.footer-right h5{
+  font-variant: small-caps;
+  font-size: 125%;
+  font-weight: 400;
+  letter-spacing: 3px;
+  padding-bottom: 1vh;
+}
+.footer-right form input {
+  padding-left: 10px;
+  height: 5.5vh;
+	width: 12vw;
+	border-radius: 9px;
+	border: 2px solid #696969;
+}
+
+.subscribe-button {
+	background-image: linear-gradient(to right, #D31027 0%, #EA384D 51%, #D31027 100%);
+	font-size: 80%;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-shadow: 2px 2px 2px black;
+  color: white;
+  margin: 1px 25px;
+  margin-left: 0.1px;
+  border: solid 2px #b31010;
+	border-radius: 9px;
+  cursor: pointer;
+  opacity: 0.9;
+  display: inline;
+	width: 5vw;
+  height: 5.5vh;
+  transition-duration: 0.4s;
+}
+
+.subscribe-button:hover {
+	background-position: right center;
+  color: white;
+  border-color: currentColor;
+  background-color: white;
+}
+/* Large Screens */
+@media only screen and (min-width: 1200px) {
+  .footer-item-container {
+    width: 1100px;
+    margin: auto;
+  }
+}

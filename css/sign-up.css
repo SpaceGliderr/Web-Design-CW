@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.signupbox {
+  margin: 10rem auto 10rem auto;
+  width: 650px;;
+  height:42rem;
+  background: #f2f2f2;
+  color: black;
+  padding: 70px 30px;
+  border: 0.5px solid lightgrey;
+  display: block;
+}
+
+.avatar {
+  margin: auto;
+  margin-bottom: -6rem;
+  transform: translateY(-120%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+}
+
+.signupbox h1 {
+  margin: 0;
+  padding: 0 0 10px;
+  text-align: center;
+  font-size: 26px;
+}
+
+.signupbox p{
+  color: red;
+  padding-left: 30px;
+  display: inline-flex;
+  font-weight: bold;
+}
+
+.signupbox input {
+  padding-left: 5px;
+  margin-bottom: 10px;
+}
+
+.signupbox input[name="city"]{
+  width: 75px;
+  border-bottom: 1px solid grey;
+  background: transparent;
+  outline: none;
+  height: 30px;
+  color: black;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.signupbox input[name="state"]{
+  width: 75px;
+  border-bottom: 1px solid grey;
+  background: transparent;
+  outline: none;
+  height: 30px;
+  color: black;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.signupbox input[name="zip-code"]{
+  width: 55px;
+  border-bottom: 1px solid grey;
+  background: transparent;
+  outline: none;
+  height: 30px;
+  color: black;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.signupbox .city p {
+  padding-left: 0px;
+  display: block;
+  font-weight: bold;
+}
+
+.city{
+  padding-left: 30px;
+  display: inline-flex;
+}
+
+.signupbox .state p {
+  padding-left: 0px;
+  display: block;
+  font-weight: bold;
+}
+
+.state{
+  padding-left: 30px;
+  display: inline-flex;
+}
+
+.signupbox .zip p {
+  padding-left: 0px;
+  display: block;
+  font-weight: bold;
+}
+
+.zip{
+  padding-left: 30px;
+  display: inline-flex;
+}
+
+.signupbox input[name="password"],
+.signupbox input[name="confirm-password"],
+[name="username"],
+[type="email"],
+[name="address"] {
+  width: 100%;
+  border: none;
+  border-radius: none;
+  border-bottom: 1px solid grey;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: black;
+  font-size: 16px;
+}
+
+.signupbox input[type="submit"] {
+  border: none;
+  outline: none;
+  width: 20rem;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  display: block;
+  margin: 1rem auto;
+}
+
+.signupbox input[type="submit"]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+.signupbox a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.signupbox a:hover {
+  color: #ffc107;
+}
+
+.TNC input {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  display: inline;
+  width: 2rem;
+}

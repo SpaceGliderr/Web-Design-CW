@@ -1,0 +1,140 @@
+.cart-main {
+  margin-top: 5rem;
+  padding-bottom: 2rem;
+  width: 100%;
+  font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
+  font-weight: 500;
+  min-height: 74.8%;
+  margin-left: 20px;
+}
+
+.cart-main h1 {
+  color: black;
+  margin-top: 7rem;
+  font-size: 2em;
+  text-align: left;
+}
+
+.cart-main table,
+th,
+td {
+  text-align: left;
+  border: 1px lightgrey solid;
+  border-collapse: collapse;
+}
+
+.cart-table th {
+  background: #c3c3c3;
+  color: black;
+  font-variant-caps: all-small-caps;
+  font-size: 120%;
+  text-align: center;
+  border: none;
+}
+
+.cart-table tr span:nth-child(2) {
+  padding-left: 2rem;
+  height: auto;
+  font-size: 90%;
+  display: inline-block;
+  font-weight: bold;
+  max-height: 10rem;
+  max-width: 20rem;
+}
+
+.cart-table tr span:nth-child(1) {
+  font-weight: bold;
+}
+
+.cart-table tr span:nth-child(1) input {
+  width: 3em;
+  height: 2em;
+  border: 1px grey solid;
+  border-radius: 3px;
+}
+
+.cart-table tr span:nth-child(1) input:focus {
+  outline: none;
+  border: 2px white solid;
+  transition-duration: 0.3s;
+}
+
+.cart-table td:nth-child(4), td:nth-child(5) {
+  font-weight: bold;
+}
+.cart-table tr:last-child td {
+  background: #c3c3c3;
+  color: black;
+  font-size: 100%;
+  font-weight: bold;
+  border: none;
+  margin-bottom: 15rem;
+}
+
+.cart-btn {
+  width: 4rem;
+  height: 2rem;
+  border-radius: 5px;
+  background: #28303c;
+  color: white;
+  font-weight: bold;
+}
+
+.cart-btn:hover {
+  border: 1px grey solid;
+  background: none;
+  color: black;
+}
+
+.cart-table tr:nth-child(even) {
+  background: #efeeee;
+  width: 100%;
+  margin: auto;
+}
+
+.cart-table tr:nth-child(odd) {
+  background: #efeeee;
+}
+
+.cart-table img {
+  float: left;
+  width: 170px;
+  height: 140px;
+}
+
+.checkout-btn input{
+  border-radius: 15px;
+  color: white;
+  font-variant-caps: all-small-caps;
+  font-weight: bold;
+  margin-top: 2%;
+  margin-left: 77%;
+  width: 250px;
+  height: 50px;
+  background-color: #dd7d01;
+  font-size: 25px;
+}
+
+.checkout-btn input:hover {
+  border-radius: 15px;
+  color: white;
+  font-variant-caps: all-small-caps;
+  font-weight: bold;
+  margin-top: 2%;
+  margin-left: 77%;
+  width: 250px;
+  height: 50px;
+  background-color: #bc6b03;
+  font-size: 25px;
+}
+/* Large Screens */
+@media only screen and (min-width: 1100px) {
+  .cart-main {
+    width: 1100px;
+    margin: 5rem auto auto auto;
+  }
+
+  .cart-table {
+    width: 1100px;
+  }
+}

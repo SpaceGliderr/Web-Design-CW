@@ -1,0 +1,74 @@
+.adminlogin-change-box {
+  height: 400px;
+  background-color: #4e657a;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 60px;
+  margin: auto;
+  margin-top: 150px;
+  width: 500px;
+}
+
+.adminlogin-change-box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+  color: #ffff;
+}
+
+.adminlogin-change-box p {
+  margin-left: 10px;
+  padding: 0;
+  font-weight: bold;
+  font-variant: small-caps;
+  display: inline-flex;
+  color: #dd3a3a;
+}
+
+.adminlogin-change-box input {
+  width: 50%;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.adminlogin-change-box .adminlogin-name{
+  width: 88.5%;
+}
+
+.adminlogin-email {
+  padding-left: 20px;
+  border: none;
+  background-color: #6e829d;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.adminlogin-change-box input[type="submit"] {
+  width: 99.5%;
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.adminlogin-change-box input[type="submit"]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+.adminlogin-change-box a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.adminlogin-change-box a:hover {
+  color: #ffc107;
+}

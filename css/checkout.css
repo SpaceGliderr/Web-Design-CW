@@ -1,0 +1,210 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 16px;
+  color: black;
+  background-color: white;
+}
+
+.col-25 {
+  flex: 25%;
+}
+
+.col-50 {
+  flex: 50%;
+}
+
+.col-75 {
+  margin-right: 200px;
+  flex: 5%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.checkout-container {
+  height: 650px;
+  margin-top: 100px;
+  margin-left: 250px;
+  padding-top: 50px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.right-cart {
+  padding: 5px 200px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  background-color: white;
+}
+
+input[name=first-name-checkout],
+input[name=email-checkout],
+input[name=address-checkout] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[name=city-checkout]{
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[name=state-checkout] {
+  width: 50%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[name=zip-checkout] {
+  width: 50%;
+  margin-left: -100px;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[name=cardname],
+input[name=cardnumber] {
+  width: 90%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[name=expmonth] {
+  width: 80%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[name=expyear] {
+  width: 30%;
+  margin-bottom: -30px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[name=cvv] {
+  width: 30%;
+  margin-bottom: -30px;
+  margin-left: -100px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.right-side {
+  margin-left: -10px;
+}
+
+.first-name-checkout {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.email-checkout {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.address-checkout {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.city-checkout {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.state-checkout {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.zip-checkout {
+  margin-left: -100px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.cardname-checkout {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.cardnumber-checkout {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.expmonth-checkout {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.expyear-checkout {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.cvv-checkout {
+  margin-left: -100px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #ffc107;
+  color: white;
+  margin-left: 63%;
+  margin-bottom: 10px;
+  padding: 12px;
+  border: none;
+  width: 30%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #ca9804;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}

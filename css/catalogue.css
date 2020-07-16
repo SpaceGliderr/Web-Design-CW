@@ -1,0 +1,129 @@
+.catalogue-main {
+  margin-top: 5rem;
+}
+
+.catalogue-header {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7rem;
+  padding-left: 4vw;
+  margin-left: -90px;
+}
+
+.searchTerm {
+  width: 92%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 43.3px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+  padding-left: 10px;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 44px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  margin-left: -5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.catalogue-header input::placeholder {
+  color: #9e9e9e;
+
+}
+
+.catalogue-header input:focus {
+  outline: none;
+}
+
+
+
+.catalogue-row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80rem;
+  margin-left: -80px;
+}
+
+.catalogue-card {
+  border-radius: 5px;
+  width: 290px;
+  height: 30rem;
+  margin: 0px 0px 10px 10px;
+  padding: 2rem;
+  color: white;
+  font-weight: bold;
+}
+
+.catalogue-card:hover {
+  border: 0.4px solid lightgrey;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.catalogue-card img {
+  width: 100%;
+  height: 200px;
+}
+
+.catalogue-content {
+  margin: auto;
+}
+
+.catalogue-info {
+  text-align: center;
+  margin-top: 2rem;
+  height: 180px;
+  text-shadow: 3px 3px 7px #fff;
+  color: #686868;
+}
+
+.catalogue-info p:first-child {
+  color: #000;
+  font-size: 120%;
+  text-shadow: 2px 2px 5px #fff;
+  font-variant: small;
+  padding-bottom: 1vh;
+}
+
+#back-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 26px;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+  border: 3px solid #333;
+  border-radius: 50%;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-property: background-color, color;
+}
+#back-to-top-btn:hover, #back-to-top-btn:focus {
+  background-color: #333;
+  color: #fff;
+}
+/* Large Screens */
+@media only screen and (min-width: 1100px) {
+  .catalogue-main {
+    width: 1100px;
+    margin: 5rem auto auto auto;
+  }
+}

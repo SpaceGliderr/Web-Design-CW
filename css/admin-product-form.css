@@ -1,0 +1,81 @@
+.product-change-box {
+  height: 700px;
+  margin-left: 5rem;
+  margin-right: 3rem;
+  background-color: #4e657a;
+  padding-left: 50px;
+  padding-top: 40px;
+}
+
+.product-change-box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: left;
+  font-size: 22px;
+
+}
+
+.product-change-box p {
+  margin-left: 10px;
+  padding: 0;
+  font-weight: bold;
+  font-variant: small-caps;
+  display: inline-flex;
+  color: #dd3a3a;
+}
+
+.product-change-box input {
+  width: 50%;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.product-change-box .product-name{
+  width: 88.5%;
+}
+
+.product-change-box input[type="text"] {
+  padding-left: 20px;
+  border: none;
+  background-color: #6e829d;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.right-edit-product{
+  margin-left: 52%;
+  margin-top: -26.3rem;
+}
+
+.right-edit-product input{
+  width: 75%;
+}
+
+.product-change-box input[type="submit"] {
+  width: 88.5%;
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.product-change-box input[type="submit"]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+.product-change-box a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.product-change-box a:hover {
+  color: #ffc107;
+}

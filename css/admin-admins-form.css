@@ -1,0 +1,106 @@
+.admin-change {
+  height: 450px;
+  margin-left: 5rem;
+  margin-right: 25rem;
+  background-color: #4e657a;
+  padding-left: 100px;
+  padding-top: 50px;
+}
+
+.admin-change h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: left;
+  font-size: 22px;
+  color: #ffff;
+}
+
+.admin-change p {
+  margin-left: 10px;
+  padding: 0;
+  font-weight: bold;
+  font-variant: small-caps;
+  display: inline-flex;
+  color: #dd3a3a;
+}
+
+.admin-change input {
+  width: 50%;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.admin-change label {
+  color: #ffff;
+}
+
+.admin-change .vendor-name{
+  width: 88.5%;
+}
+
+.admin-change input[type="email"] {
+  width: 500px;
+  padding-left: 20px;
+  border: none;
+  background-color: #6e829d;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.admin-change input[type="text"] {
+  width: 500px;
+  padding-left: 20px;
+  border: none;
+  background-color: #6e829d;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.admin-change input[type="password"] {
+  width: 500px;
+  padding-left: 20px;
+  border: none;
+  background-color: #6e829d;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.right-edit-vendor{
+  margin-left: 32rem;
+  margin-top: -26.3rem;
+}
+
+.right-edit-vendor input{
+  width: 75%;
+}
+
+.admin-change input[type="submit"] {
+  width: 50%;
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.admin-change input[type="submit"]:hover {
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+}
+
+.admin-change a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.admin-change a:hover {
+  color: #ffc107;
+}
